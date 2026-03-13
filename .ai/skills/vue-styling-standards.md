@@ -3,7 +3,7 @@
 ## 1. BEM Methodology (Priority)
 - **Mandatory:** All components must use the **BEM (Block Element Modifier)** methodology for class naming.
 - The block name must match the component name in kebab-case (e.g., `user-profile`).
-- Styles must be defined in the component's specialized `styles.css` file, fulfilling the directory structure specified in `vue-component-standard.md`.
+- Styles must be defined in the component's specialized `styles.css` file, fulfilling the directory structure specified in [vue-component-standard.md](./vue-component-standard.md).
 
 ```css
 /* Good: styles.css */

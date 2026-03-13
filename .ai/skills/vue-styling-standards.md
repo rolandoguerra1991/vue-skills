@@ -7,6 +7,8 @@
 
 ```css
 /* Good: styles.css */
+@reference "tailwindcss";
+
 .user-profile {
   @apply flex flex-col gap-4 p-4 border border-gray-200 rounded-lg;
 }
@@ -21,8 +23,9 @@
 ```
 
 ## 2. Tailwind CSS with @apply
-- Do **not** use long utility-class strings directly in the HTML template. 
+- Do **not** use long utility-class strings directly in the HTML template.
 - Use Tailwind classes via the `@apply` directive inside the component's `styles.css`.
+- **Mandatory (Tailwind v4):** You MUST include `@reference "tailwindcss";` at the top of any `styles.css` file that uses `@apply` to ensure utility classes are available during compilation.
 - This keeps the templates clean and adheres to the BEM structure while leveraging Tailwind's utility system.
 
 ```vue
@@ -38,7 +41,7 @@
 ```
 
 ## 3. Scoped Styles and Encapsulation
-- By default, styles are encapsulated by the project structure where `index.vue` and `styles.css` coexist in the component folder. 
+- By default, styles are encapsulated by the project structure where `index.vue` and `styles.css` coexist in the component folder.
 - Avoid leaking global CSS. Any truly global styles must reside in `assets/base.css` or `assets/main.css`.
 
 ## 4. Class and Style Bindings

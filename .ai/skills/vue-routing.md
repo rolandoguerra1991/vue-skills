@@ -15,17 +15,35 @@ const routes = [
 ]
 ```
 
-## 2. Using Meta Fields
-- Use the `meta` property on route definitions for declarative configuration.
-- Common uses: `requiresAuth: true`, `layout: 'AdminLayout'`, `title: 'Page Title'`, `role: 'admin'`.
+## 2. Layouts & Nested Routes
+Standardize layout management using **Nested Routes** to ensure structural persistence and clean separation.
+
+- **Standard Pattern:** Use a parent route with a `Layout` component and child routes for specific pages.
+- **Layout Component:** Must contain a `<router-view />` to render child content.
+- **Persistence:** This avoids re-mounting the layout when navigating between sibling child routes.
 
 ```typescript
-// Good: Using Meta tags
-{
-  path: '/settings',
-  component: () => import('@/views/Settings.vue'),
-  meta: { requiresAuth: true, layout: 'default', title: 'User Settings' }
-}
+// router/index.ts
+const routes = [
+  {
+    path: '/',
+    component: () => import('@/layouts/MainLayout/index.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Home',
+        component: () => import('@/views/Home/index.vue')
+      },
+      {
+        path: 'profile',
+        name: 'Profile',
+        component: () => import('@/views/Profile/index.vue'),
+        // Child-specific guards
+        beforeEnter: [authGuard]
+      }
+    ]
+  }
+];
 ```
 
 ## 3. Navigation Guards & Orchestration

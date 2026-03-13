@@ -5,7 +5,7 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 ## 🚀 Key Features
 
 - **Automated AI Context:** Orchestrated via `.ai/AGENTS.md` to guide AI agents through project-specific rules.
-- **Enterprise Architecture:** Strict separation between orchestration (Views) and presentation (Components).
+- **Enterprise Architecture:** Strict separation between Layouts (structure), Views (orchestration), and Components (presentation).
 - **Safe API Layer:** Automated request cancellation using `AbortController` hidden behind clean composables.
 - **Granular Routing:** Decoupled navigation logic using per-route guards and externalized middleware patterns.
 - **BEM Styling:** Mandatory Block-Element-Modifier methodology using local CSS files and Tailwind `@apply`.
@@ -17,7 +17,7 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 The intelligence of this repository lies in the `/.ai/skills/` directory. Each file defines a non-negotiable standard for the AI:
 
 ### 🏗️ Structure & Patterns
-- **[Architectural Roles](.ai/skills/vue-architecture-roles.md)**: Defines the Pages vs. Components hierarchy.
+- **[Architectural Roles](.ai/skills/vue-architecture-roles.md)**: Defines the Layouts vs. Pages vs. Components hierarchy.
 - **[Component Standard](.ai/skills/vue-component-standard.md)**: Enforces the 4-file directory structure (`index.vue`, `types.ts`, `styles.css`, `index.spec.ts`).
 - **[Coding Standards](.ai/skills/vue-coding-standards.md)**: Strict `<script setup>` organization and SOLID principles.
 - **[Routing Standards](.ai/skills/vue-routing.md)**: Granular per-route guards and rule of separation for views.

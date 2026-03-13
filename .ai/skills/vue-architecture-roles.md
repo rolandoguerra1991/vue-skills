@@ -1,6 +1,12 @@
-# Skill: Architectural Roles (Pages vs. Components)
+# Skill: Architectural Roles (Layouts, Pages & Components)
 
-## 1. Page / View (Orchestrator)
+## 1. Layout (Structural Wrapper)
+- **Location:** `src/layouts/`.
+- **Responsibility:** Structural skeleton (Header, Sidebar, Footer) and rendering children via `<router-view />`.
+- **Naming:** Must end with `Layout` (e.g., `MainLayout`).
+- **Standard:** Follow the directory structure defined in `vue-component-standard.md`.
+
+## 2. Page / View (Orchestrator)
 - **Location:** `src/views/` or `src/pages/`.
 - **Responsibility:** Orchestration, data fetching, and passing data to children.
 - **Strict Rule:** ALL Views MUST follow the exact same file convention as components defined in `vue-component-standard.md` (directory, `index.vue`, `styles.css`, `types.ts`, `index.spec.ts`).

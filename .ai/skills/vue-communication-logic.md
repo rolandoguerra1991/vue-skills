@@ -10,3 +10,4 @@
 
 ## 3. Pinia
 - Use for cross-domain state or business logic that persists across views.
+- **Implementation:** Follow the "Setup Store" conventions defined in `vue-state-management.md`.

@@ -3,7 +3,7 @@
 ## 1. Script Setup Organization
 Maintain this strict order:
 1. Imports (External > Internal @/ > Local ./).
-2. Type definitions (if not in `types.ts`).
+2. Type definitions (must follow `vue-component-standard.md` and `vue-typescript-rules.md`).
 3. Macros (`defineProps`, `defineEmits`).
 4. Reactive & Non-reactive data (Constants > Refs > Stores).
 5. Computed properties.
@@ -12,11 +12,12 @@ Maintain this strict order:
 8. Lifecycle hooks (`onMounted`).
 
 ## 2. SOLID Principles
-- **SRP:** Components must NOT contain infrastructure logic (API calls). Use Composables.
+- **SRP:** Components must NOT contain infrastructure logic (API calls). Use Composables and Services as defined in `vue-api-integration.md` and `vue-composables-standard.md`.
 - **Open/Closed:** Use Slots for extensibility.
-- **Interface Segregation:** Pass granular props, not large objects.
-- **Dependency Inversion:** Components depend on Props/Emits, not global instances.
+- **Interface Segregation:** Pass granular props, not large objects. Follow `vue-typescript-rules.md` for externalized prop interfaces.
+- **Dependency Inversion:** Components depend on Props/Emits, not global instances. Follow `vue-communication-logic.md` for hierarchy rules.
 
 ## 3. Naming Conventions
 - Boolean: Use prefixes like `is`, `has`, `can` (e.g., `isLoading`).
 - Events: Use `handle` prefix for functions (e.g., `handleUpdate`).
+- **CSS Classes:** Strictly follow the BEM methodology defined in `vue-styling-standards.md`.

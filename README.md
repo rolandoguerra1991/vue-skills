@@ -52,7 +52,7 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 To fully enable the ecosystem's capabilities, install the core dependencies:
 
 ```bash
-npm install vue-router@4 pinia motion axios
+npm install vue-router@4 pinia motion-v axios
 npm install -D tailwindcss @tailwindcss/vite vitest @vue/test-utils playwright eslint prettier
 ```
 

@@ -1,7 +1,7 @@
 # Skill: Vue UX/UI Standards
 
 > [!IMPORTANT]
-> **Dependencies:** `motion`
+> **Dependencies:** `motion-v`
 
 
 ## 1. Visual Feedback
@@ -19,7 +19,7 @@ The application must be usable by everyone.
 - **ARIA Labels:** Use `aria-label` or `aria-labelledby` for interactive elements without visible text (e.g., icon-only buttons).
 
 ## 3. Premium Animations with Motion
-Use the **Motion** library as the standard for creating fluid, high-quality transitions.
+Use the **Motion for Vue** (`motion-v`) library as the standard for creating fluid, high-quality transitions.
 
 - **Principle:** Animations should feel natural and assist the user's focus, never distract or cause fatigue.
 - **Standard Presets:**
@@ -30,7 +30,7 @@ Use the **Motion** library as the standard for creating fluid, high-quality tran
 ```vue
 <!-- Example: Animated Sidebar -->
 <template>
-  <Motion
+  <motion.div
     :initial="{ x: '-100%' }"
     :animate="{ x: 0 }"
     :exit="{ x: '-100%' }"
@@ -38,7 +38,7 @@ Use the **Motion** library as the standard for creating fluid, high-quality tran
     class="sidebar"
   >
     <slot />
-  </Motion>
+  </motion.div>
 </template>
 ```
 

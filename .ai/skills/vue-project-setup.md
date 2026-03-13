@@ -5,7 +5,7 @@ All projects in this ecosystem must have the following core libraries installed:
 
 - **Routing:** `vue-router@4`
 - **State Management:** `pinia`
-- **Animation:** `motion`
+- **Animation:** `motion-v`
 - **Icons:** `lucide-vue-next` (Recommended)
 - **API Clients:** `axios`
 

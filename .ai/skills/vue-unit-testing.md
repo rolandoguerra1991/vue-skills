@@ -1,4 +1,8 @@
-# Skill: Vue 3 Unit Testing Standard
+# Skill: Vue 3 Unit Testing
+
+> [!IMPORTANT]
+> **Dependencies:** `vitest`, `@vue/test-utils`
+ Standard
 
 ## Rules
 1. **Isolation:** Use `shallowMount` ONLY. Do not render child components.

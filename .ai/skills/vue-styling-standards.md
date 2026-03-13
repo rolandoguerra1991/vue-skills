@@ -1,5 +1,9 @@
 # Skill: Vue Styling Standards
 
+> [!IMPORTANT]
+> **Dependencies:** `tailwindcss`, `@tailwindcss/vite` (Tailwind v4)
+
+
 ## 1. BEM Methodology (Priority)
 - **Mandatory:** All components must use the **BEM (Block Element Modifier)** methodology for class naming.
 - The block name must match the component name in kebab-case (e.g., `user-profile`).

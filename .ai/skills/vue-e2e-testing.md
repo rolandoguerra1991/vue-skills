@@ -1,4 +1,8 @@
-# Skill: Vue E2E Testing Standards
+# Skill: Vue 3 E2E Testing
+
+> [!IMPORTANT]
+> **Dependencies:** `playwright`
+ Standards
 
 ## 1. Tool Selection
 - Use modern E2E testing tools like **Playwright** or **Cypress**. (Playwright is often preferred for newer Vue projects due to its speed and native async architecture).

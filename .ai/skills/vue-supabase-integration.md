@@ -1,4 +1,8 @@
-# Skill: Supabase Integration (Vue 3)
+# Skill: Supabase Integration Standard
+
+> [!IMPORTANT]
+> **Dependencies:** `@supabase/supabase-js`
+(Vue 3)
 
 ## 1. Client Configuration
 Supabase must be initialized as a singleton in `src/lib/supabase.ts` (or `src/services/supabase.ts`) to be reused across the application.

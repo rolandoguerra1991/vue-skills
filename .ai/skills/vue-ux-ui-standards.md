@@ -1,5 +1,9 @@
 # Skill: Vue UX/UI Standards
 
+> [!IMPORTANT]
+> **Dependencies:** `motion`
+
+
 ## 1. Visual Feedback
 Every asynchronous action or state change must provide immediate visual feedback.
 

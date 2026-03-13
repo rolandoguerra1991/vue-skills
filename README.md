@@ -9,6 +9,7 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 - **Safe API Layer:** Automated request cancellation using `AbortController` hidden behind clean composables.
 - **Granular Routing:** Decoupled navigation logic using per-route guards and externalized middleware patterns.
 - **BEM Styling:** Mandatory Block-Element-Modifier methodology using local CSS files and Tailwind `@apply`.
+- **Pre-configured Environment:** Standardized dependencies and editor alignment for zero-overhead development.
 - **Standardized Formatting:** Strict indentation, quote usage, and template structure rules for a cohesive codebase.
 - **Bulletproof Typing:** Inferred type safety from API responses directly to UI state.
 
@@ -17,6 +18,7 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 The intelligence of this repository lies in the `/.ai/skills/` directory. Each file defines a non-negotiable standard for the AI:
 
 ### 🏗️ Structure & Patterns
+- **[Project Setup & Editor](.ai/skills/vue-project-setup.md)**: Mandatory dependencies and VS Code alignment.
 - **[Architectural Roles](.ai/skills/vue-architecture-roles.md)**: Defines the Layouts vs. Pages vs. Components hierarchy.
 - **[Component Standard](.ai/skills/vue-component-standard.md)**: Enforces the 4-file directory structure (`index.vue`, `types.ts`, `styles.css`, `index.spec.ts`).
 - **[Coding Standards](.ai/skills/vue-coding-standards.md)**: Strict `<script setup>` organization and SOLID principles.
@@ -42,6 +44,17 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 ### 🔗 Integrations & Workflow
 - **[Supabase Integration](.ai/skills/vue-supabase-integration.md)**: Standards for database, auth, and real-time integration.
 - **[Git Standards](.ai/skills/git-standards.md)**: Rules for branch naming and commit messages.
+
+---
+
+## ⚡ Quick Installation
+
+To fully enable the ecosystem's capabilities, install the core dependencies:
+
+```bash
+npm install vue-router@4 pinia motion axios
+npm install -D tailwindcss @tailwindcss/vite vitest @vue/test-utils playwright eslint prettier
+```
 
 ---
 

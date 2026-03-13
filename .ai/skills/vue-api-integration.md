@@ -1,4 +1,8 @@
-# Skill: Vue API Integration
+# Skill: Vue 3 API Integration Standard
+
+> [!IMPORTANT]
+> **Dependencies:** `axios`
+
 
 ## 1. Primary Principle: Legibility over Complexity
 - Code must be "self-documenting". An engineer reading the component should understand the data flow in seconds.

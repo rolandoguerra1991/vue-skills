@@ -1,5 +1,9 @@
 # Skill: Vue Routing Standards
 
+> [!IMPORTANT]
+> **Dependencies:** `vue-router@4`
+
+
 ## 1. Lazy Loading Routes
 - All top-level page components MUST be lazy-loaded using dynamic imports (`() => import(...)`).
 - This is critical for performance, as it splits the application into smaller chunks, reducing the initial bundle size.

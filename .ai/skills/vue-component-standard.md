@@ -1,4 +1,4 @@
-# Skill: Vue 3 Component Standard
+# Skill: Vue 3 Component & View Standard
 
 ## Tech Stack
 - Framework: Vue 3 (Composition API with `<script setup lang="ts">`).
@@ -6,7 +6,7 @@
 - Testing: Vitest + Vue Test Utils.
 
 ## File Structure
-Every component must reside in its own directory: `[ComponentName]/`
+Every component or view/page must reside in its own directory: `[Name]/`
 1. `index.vue`: Template and logic.
 2. `types.ts`: Exported interfaces for Props, Emits, and local types.
 3. `styles.css`: Scoped styles following BEM.

@@ -3,7 +3,7 @@
 ## 1. Page / View (Orchestrator)
 - **Location:** `src/views/` or `src/pages/`.
 - **Responsibility:** Orchestration, data fetching, and passing data to children.
-- **Complexity Rule:** If a View becomes complex (requires dedicated types or specific styles), it must follow the directory structure defined in `vue-component-standard.md` (directory, `index.vue`, `types.ts`, `styles.css`).
+- **Strict Rule:** ALL Views MUST follow the exact same file convention as components defined in `vue-component-standard.md` (directory, `index.vue`, `styles.css`, `types.ts`, `index.spec.ts`).
 
 
 ## 2. Component (Presentation/UI)

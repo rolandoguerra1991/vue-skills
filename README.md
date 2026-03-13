@@ -29,9 +29,10 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 - **[Composables Standard](.ai/skills/vue-composables-standard.md)**: Guidelines for logic reuse and lifecycle-aware cleanup.
 
 ### 🎨 Styling & Performance
-- **[Styling Standards](.ai/skills/vue-styling-standards.md)**: BEM priority and Tailwind CSS encapsulation.
-- **[Formatting & Indentation](.ai/skills/vue-formatting-standards.md)**: Mandatory rules for clean code and clean diffs.
-- **[Performance](.ai/skills/vue-performance.md)**: Optimization rules for large datasets and heavy components.
+- [**Styling Standards**](.ai/skills/vue-styling-standards.md): BEM priority and Tailwind CSS encapsulation.
+- [**UX/UI Standards**](.ai/skills/vue-ux-ui-standards.md): Accessibility, visual feedback, and premium animations with Motion.
+- [**Formatting & Indentation**](.ai/skills/vue-formatting-standards.md): Mandatory rules for clean code and clean diffs.
+- [**Performance**](.ai/skills/vue-performance.md): Optimization rules for large datasets and heavy components.
 
 ### 🛡️ Quality Assurance
 - **[TypeScript Rules](.ai/skills/vue-typescript-rules.md)**: Externalized interfaces and strict typing.

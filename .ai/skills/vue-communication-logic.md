@@ -1,3 +1,7 @@
+---
+description: Emits (direct neighbor), Provide/Inject (deep trees), Pinia (cross-domain) thresholds
+applies_to: [components, views]
+---
 # Skill: Component Communication Threshold
 
 ## 1. Emits (Direct Neighbor Rule)

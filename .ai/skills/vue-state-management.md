@@ -1,3 +1,7 @@
+---
+description: Pinia setup stores, storeToRefs, async actions, modular stores, local vs global state
+applies_to: [stores, state]
+---
 # Skill: Vue Pinia State Management
 
 > [!IMPORTANT]

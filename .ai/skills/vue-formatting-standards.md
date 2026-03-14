@@ -1,3 +1,7 @@
+---
+description: Indentation, quotes, semicolons, line length, attribute order, CSS property order
+applies_to: [all]
+---
 # Skill: Vue Formatting & Indentation Standards
 
 ## 1. General Formatting Rules

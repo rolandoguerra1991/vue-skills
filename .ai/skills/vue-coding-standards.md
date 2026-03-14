@@ -1,3 +1,7 @@
+---
+description: Script setup order, SOLID principles (SRP, Open/Closed, ISP, DI), naming conventions
+applies_to: [components, views, composables]
+---
 # Skill: Vue 3 Code Style & SOLID Standards
 
 > [!IMPORTANT]

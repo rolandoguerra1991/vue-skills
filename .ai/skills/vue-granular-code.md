@@ -1,3 +1,7 @@
+---
+description: Function size limits (~20 lines), early returns, helper extraction, composable granularity
+applies_to: [components, composables, utils, helpers]
+---
 # Skill: Granular & Modular Code
 
 > [!IMPORTANT]

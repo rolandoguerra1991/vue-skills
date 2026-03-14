@@ -1,3 +1,7 @@
+---
+description: BEM methodology (canonical source), Tailwind @apply pattern, scoped styles, theming
+applies_to: [components, views, layouts]
+---
 # Skill: Vue Styling Standards
 
 > [!IMPORTANT]

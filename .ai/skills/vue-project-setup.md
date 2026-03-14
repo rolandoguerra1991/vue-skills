@@ -1,3 +1,7 @@
+---
+description: Core dependencies, Tailwind v4 Vite config, VS Code settings, EditorConfig, Prettier
+applies_to: [project, config]
+---
 # Skill: Vue Project Setup & Editor Alignment
 
 ## 1. Mandatory Core Dependencies

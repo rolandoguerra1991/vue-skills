@@ -1,3 +1,7 @@
+---
+description: Layouts vs Pages vs Components — responsibilities, locations, strict rules
+applies_to: [architecture, components, views, layouts]
+---
 # Skill: Architectural Roles (Layouts, Pages & Components)
 
 ## 1. Layout (Structural Wrapper)

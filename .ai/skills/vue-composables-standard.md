@@ -1,3 +1,7 @@
+---
+description: Composable naming, reactivity returns, cleanup, flexible arguments, SRP
+applies_to: [composables]
+---
 # Skill: Vue 3 Composables Standard
 
 ## 1. Naming Conventions

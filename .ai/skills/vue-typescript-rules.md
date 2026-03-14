@@ -1,3 +1,7 @@
+---
+description: Props/Emits type-based syntax, template refs, generic components, strict mode
+applies_to: [components, composables, types]
+---
 # Skill: Vue TypeScript Standards
 
 ## 1. Typing Props and Emits

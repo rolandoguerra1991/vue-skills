@@ -1,3 +1,7 @@
+---
+description: v-once, v-memo, shallowRef, async components, computed caching, event modifiers
+applies_to: [components, views, composables]
+---
 # Skill: Vue Performance Standards
 
 ## 1. Using v-once and v-memo

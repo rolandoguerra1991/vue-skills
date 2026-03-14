@@ -1,3 +1,7 @@
+---
+description: Conventional commits format, types (feat, fix, refactor), automated body
+applies_to: [git]
+---
 # Skill: Conventional Commits & Documentation
 
 ## 1. Commit Format

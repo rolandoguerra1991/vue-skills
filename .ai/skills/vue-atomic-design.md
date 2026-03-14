@@ -1,3 +1,7 @@
+---
+description: Atomic Design — Atoms, Molecules, Organisms hierarchy, mandatory extraction, naming
+applies_to: [components]
+---
 # Skill: Atomic Design for Vue Components
 
 > [!IMPORTANT]

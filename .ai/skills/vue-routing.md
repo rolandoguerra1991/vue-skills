@@ -1,3 +1,7 @@
+---
+description: Lazy loading, nested routes with layouts, navigation guards, named routes, typing
+applies_to: [router, views]
+---
 # Skill: Vue Routing Standards
 
 > [!IMPORTANT]

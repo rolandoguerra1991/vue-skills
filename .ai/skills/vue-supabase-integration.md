@@ -1,3 +1,7 @@
+---
+description: Supabase client singleton, auth, service pattern, composables, realtime, RLS security
+applies_to: [services, composables, config]
+---
 # Skill: Supabase Integration Standard
 
 > [!IMPORTANT]

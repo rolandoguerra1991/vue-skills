@@ -1,3 +1,7 @@
+---
+description: Design identity, visual feedback, accessibility, motion-v animations, responsive, form UX
+applies_to: [components, views, layouts]
+---
 # Skill: Vue UX/UI Standards
 
 > [!IMPORTANT]

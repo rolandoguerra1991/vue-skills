@@ -1,3 +1,7 @@
+---
+description: Repository pattern, useApi composable, automated cancellation, parallel calls, typing
+applies_to: [services, composables, views]
+---
 # Skill: Vue 3 API Integration Standard
 
 > [!IMPORTANT]
@@ -95,5 +99,5 @@ onMounted(() => loadPageData('user-123'))
 ```
 
 ## 5. Types and Interfaces
-- **Mandatory:** Do not use `any`.
+- **Mandatory:** Do not use `any` — see [vue-typescript-rules.md](./vue-typescript-rules.md) (canonical).
 - If a variable uses data from an API, it must share the same interface defined in the service's response.

@@ -41,7 +41,4 @@ Consistent formatting is mandatory to maintain readability and clean Git diffs.
   - No space between function name and parentheses (`function name()`).
 - **Imports:** Group and sort imports (External Packages > Internal Aliases `@/` > Local Files `./`).
 
-## 4. CSS / Styling Specifics
-- **Indentation:** 2 spaces.
-- **Declaration Order:** Group related properties (Positioning > Box Model > Typography > Visual > Misc).
-- **New Line:** Each selector and property must be on a new line.
+

@@ -5,7 +5,8 @@ applies_to: [components, composables, utils]
 # Skill: Vue 3 Unit Testing
 
 > [!IMPORTANT]
-> **Dependencies:** `vitest`, `@vue/test-utils`
+> **Dependencies:** `vitest`, `@vue/test-utils` (See [vue-project-setup.md](./vue-project-setup.md))
+
 
 ## 1. Isolation
 - Use `shallowMount` ONLY. Do not render child components.

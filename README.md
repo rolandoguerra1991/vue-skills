@@ -25,6 +25,7 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 - **[Atomic Design](.ai/skills/vue-atomic-design.md)**: Component decomposition into Atoms, Molecules, and Organisms with mandatory extraction rules.
 - **[Component Standard](.ai/skills/vue-component-standard.md)**: Enforces the 4-file directory structure (`index.vue`, `types.ts`, `styles.css`, `index.spec.ts`).
 - **[Coding Standards](.ai/skills/vue-coding-standards.md)**: Strict `<script setup>` organization and SOLID principles.
+- **[Constants & Messages](.ai/skills/vue-constants-standard.md)**: Centralization of strings, magic values, and UI text for better maintainability.
 - **[Granular Code](.ai/skills/vue-granular-code.md)**: Function size limits (~20 lines), early returns, helper extraction, and composable granularity.
 - **[Routing Standards](.ai/skills/vue-routing.md)**: Granular per-route guards and rule of separation for views.
 - **[Communication Logic](.ai/skills/vue-communication-logic.md)**: Guidelines for Props/Emits and parent-child interaction.
@@ -32,6 +33,8 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 ### 💡 Logic & State
 - **[State Management](.ai/skills/vue-state-management.md)**: Modern Pinia usage with Setup Stores and inferred reactivity.
 - **[API Integration](.ai/skills/vue-api-integration.md)**: Clean API consumption with automated AbortController handling.
+- **[Error Handling](.ai/skills/vue-error-handling.md)**: Centralized API error handling, toast feedback, and ErrorBoundary component.
+- **[Form Validation](.ai/skills/vue-form-validation.md)**: Schema-first form validation with Zod and reusable composable.
 - **[Composables Standard](.ai/skills/vue-composables-standard.md)**: Guidelines for logic reuse and lifecycle-aware cleanup.
 
 ### 🎨 Styling & Performance
@@ -47,7 +50,7 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 
 ### 🔗 Integrations & Workflow
 - **[Supabase Integration](.ai/skills/vue-supabase-integration.md)**: Standards for database, auth, and real-time integration.
-- **[Git Standards](.ai/skills/git-standards.md)**: Rules for branch naming and commit messages.
+- **[Git Standards](.ai/skills/git-standards.md)**: Conventional commits, branch naming, and commit body standards.
 
 ---
 
@@ -56,7 +59,7 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 To fully enable the ecosystem's capabilities, install the core dependencies:
 
 ```bash
-npm install vue-router@4 pinia motion-v axios
+npm install vue-router@4 pinia motion-v axios zod
 npm install -D tailwindcss @tailwindcss/vite vitest @vue/test-utils playwright eslint prettier
 ```
 

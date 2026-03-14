@@ -5,7 +5,8 @@ applies_to: [components, views, layouts]
 # Skill: Vue UX/UI Standards
 
 > [!IMPORTANT]
-> **Dependencies:** `motion-v`
+> **Dependencies:** `motion-v` (See [vue-project-setup.md](./vue-project-setup.md))
+
 
 ## 0. Design Identity Discovery (MANDATORY)
 Before generating any UI code, the AI **MUST** establish the visual identity. If the user has not provided these, the AI **MUST** ask:

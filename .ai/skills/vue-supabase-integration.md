@@ -5,8 +5,8 @@ applies_to: [services, composables, config]
 # Skill: Supabase Integration Standard
 
 > [!IMPORTANT]
-> **Dependencies:** `@supabase/supabase-js`
-(Vue 3)
+> **Dependencies:** `@supabase/supabase-js` (See [vue-project-setup.md](./vue-project-setup.md))
+
 
 ## 1. Client Configuration
 Supabase must be initialized as a singleton in `src/lib/supabase.ts` (or `src/services/supabase.ts`) to be reused across the application.

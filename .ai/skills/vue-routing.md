@@ -5,7 +5,8 @@ applies_to: [router, views]
 # Skill: Vue Routing Standards
 
 > [!IMPORTANT]
-> **Dependencies:** `vue-router@4`
+> **Dependencies:** `vue-router@4` (See [vue-project-setup.md](./vue-project-setup.md))
+
 
 
 ## 1. Lazy Loading Routes

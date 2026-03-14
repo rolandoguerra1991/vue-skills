@@ -56,6 +56,13 @@ applies_to: [components, views, layouts]
 - Use the object or array syntax for dynamic classes following BEM naming.
 - Avoid inline `style="..."` attributes unless the value is strictly dynamic (e.g., a background color or position based on JS variables).
 
-## 5. CSS Custom Properties (Theming)
-- Use CSS Custom Properties (`--primary-color`) for theming and dark mode, declared in the `:root`.
-- These can be referenced inside `@apply` or directly in CSS.
+## 6. CSS Formatting & Declaration Order
+- **Indentation:** 2 spaces.
+- **Declaration Order:** Group related properties to improve readability:
+  1. **Positioning** (position, top, left, z-index, etc.)
+  2. **Box Model** (display, flex, grid, width, height, margin, padding, border)
+  3. **Typography** (font, line-height, text-align, etc.)
+  4. **Visual** (background, opacity, transition, etc.)
+  5. **Misc** (cursor, user-select, etc.)
+- **Syntax:** Each selector and property MUST be on a new line.
+

@@ -10,8 +10,11 @@ All projects in this ecosystem must have the following core libraries installed:
 - **Routing:** `vue-router@4`
 - **State Management:** `pinia`
 - **Animation:** `motion-v`
-- **Icons:** `lucide-vue-next` (Recommended)
+- **Validation:** `zod`
 - **API Clients:** `axios`
+- **Unit Testing:** `vitest`, `@vue/test-utils`
+- **E2E Testing:** `playwright`
+
 
 ## 2. Styling (Tailwind CSS v4)
 We use the modern Tailwind v4 stack integrated with Vite.

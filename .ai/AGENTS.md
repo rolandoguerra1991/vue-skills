@@ -21,20 +21,23 @@ You are a Senior Fullstack Engineer with a "Product Owner" mindset. Your priorit
 | `vue-component-standard.md` | File structure per component (index.vue, types.ts, styles.css, spec) |
 | `vue-coding-standards.md` | Script setup order, SOLID principles, naming |
 | `vue-granular-code.md` | Function size limits, early returns, helper extraction |
+| `vue-constants-standard.md` | Centralization of constants, magic values, and long UI strings |
 | `vue-typescript-rules.md` | Props/Emits typing, generics, strict mode |
 | `vue-formatting-standards.md` | Indentation, quotes, line length, attribute order |
 | `vue-styling-standards.md` | BEM methodology (canonical), Tailwind @apply, theming |
 | `vue-ux-ui-standards.md` | Motion (motion-v), accessibility, responsive, glassmorphism |
 | `vue-composables-standard.md` | Composable naming, reactivity, cleanup, SRP |
-| `vue-communication-logic.md` | Emits vs Provide/Inject vs Pinia thresholds |
+| `vue-communication-logic.md` | Emits vs Provide/Inject (typed InjectionKey) vs Pinia thresholds |
 | `vue-state-management.md` | Pinia setup stores, storeToRefs, modularity |
 | `vue-api-integration.md` | Repository pattern, useApi composable, cancellation |
+| `vue-error-handling.md` | Centralized API errors, toast handling, ErrorBoundary component |
+| `vue-form-validation.md` | Zod schema-first validation, useFormValidation composable |
 | `vue-supabase-integration.md` | Supabase client, services, RLS, realtime |
 | `vue-routing.md` | Lazy loading, nested routes, guards, named routes |
 | `vue-performance.md` | v-memo, shallowRef, async components, computed caching |
 | `vue-unit-testing.md` | Vitest, shallowMount, mocking, coverage |
 | `vue-e2e-testing.md` | Playwright, test IDs, API mocking, user flows |
-| `git-standards.md` | Conventional commits format |
+| `git-standards.md` | Conventional commits, branch naming, commit body |
 
 ## Conflict Resolution
 In case of conflicting instructions, the hierarchy is:

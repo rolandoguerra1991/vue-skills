@@ -5,7 +5,8 @@ applies_to: [stores, state]
 # Skill: Vue Pinia State Management
 
 > [!IMPORTANT]
-> **Dependencies:** `pinia`
+> **Dependencies:** `pinia` (See [vue-project-setup.md](./vue-project-setup.md))
+
 
 ## 1. Setup Stores over Options Stores
 - Always write Pinia stores using the [Setup Store](https://pinia.vuejs.org/core-concepts/#Setup-function) syntax (Composition API style).

@@ -16,7 +16,7 @@ applies_to: [architecture, components, views, layouts]
 - **Strict Rule:** ALL Views MUST follow the exact same file convention as components defined in `vue-component-standard.md` (directory, `index.vue`, `styles.css`, `types.ts`, `index.spec.ts`).
 
 
-## 2. Component (Presentation/UI)
+## 3. Component (Presentation/UI)
 - **Location:** `src/components/`.
 - **Responsibility:** Rendering data and emitting UI events.
 - **Decomposition:** Components MUST follow the Atomic Design hierarchy (Atoms → Molecules → Organisms) defined in [vue-atomic-design.md](./vue-atomic-design.md).

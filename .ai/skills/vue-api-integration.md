@@ -1,11 +1,11 @@
 ---
-description: Repository pattern, useApi composable, automated cancellation, parallel calls, typing
+description: Service pattern, useApi composable, automated cancellation, parallel calls, typing
 applies_to: [services, composables, views]
 ---
 # Skill: Vue 3 API Integration Standard
 
 > [!IMPORTANT]
-> **Dependencies:** `axios`
+> **Dependencies:** `axios` (See [vue-project-setup.md](./vue-project-setup.md))
 
 
 ## 1. Primary Principle: Legibility over Complexity
@@ -13,7 +13,7 @@ applies_to: [services, composables, views]
 - Technical boilerplate (cancellation, loading states, error handling) must be encapsulated.
 - **True Source of Typing:** The API response type dictates the type of the reactive variable.
 
-## 2. Separation of Concerns (Repository Pattern)
+## 2. Separation of Concerns (Service Pattern)
 - Define services as simple objects. Always externalize types in `./types.ts` as per `vue-component-standard.md`.
 
 ```typescript

@@ -15,4 +15,5 @@
 ## 2. Component (Presentation/UI)
 - **Location:** `src/components/`.
 - **Responsibility:** Rendering data and emitting UI events.
+- **Decomposition:** Components MUST follow the Atomic Design hierarchy (Atoms → Molecules → Organisms) defined in [vue-atomic-design.md](./vue-atomic-design.md).
 - **Strict Prohibition:** MUST NOT import API services, perform direct fetch calls, or manage infrastructure controllers (e.g., `AbortController`). Refer to `vue-api-integration.md` for automated handling patterns.

@@ -16,7 +16,7 @@ Maintain this strict order:
 8. Lifecycle hooks (`onMounted`).
 
 ## 2. SOLID Principles
-- **SRP:** Components must NOT contain infrastructure logic (API calls). Use Composables and Services as defined in [vue-api-integration.md](./vue-api-integration.md) and [vue-composables-standard.md](./vue-composables-standard.md).
+- **SRP:** Components must NOT contain infrastructure logic (API calls). Use Composables and Services as defined in [vue-api-integration.md](./vue-api-integration.md) and [vue-composables-standard.md](./vue-composables-standard.md). For function-level granularity rules, follow [vue-granular-code.md](./vue-granular-code.md).
 - **Open/Closed:** Use Slots for extensibility.
 - **Interface Segregation:** Pass granular props, not large objects. Follow [vue-typescript-rules.md](./vue-typescript-rules.md) for externalized prop interfaces.
 - **Dependency Inversion:** Components depend on Props/Emits, not global instances. Follow [vue-communication-logic.md](./vue-communication-logic.md) for hierarchy rules.

@@ -4,8 +4,10 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 
 ## 🚀 Key Features
 
-- **Automated AI Context:** Orchestrated via `.ai/AGENTS.md` to guide AI agents through project-specific rules.
+- **Automated AI Context:** Orchestrated via `.ai/AGENTS.md` with a **Skill Index** to guide AI agents through project-specific rules.
 - **Enterprise Architecture:** Strict separation between Layouts (structure), Views (orchestration), and Components (presentation).
+- **Atomic Design:** Mandatory component decomposition into Atoms, Molecules, and Organisms for maximum reusability.
+- **Granular Code:** Function size limits, early returns, and mandatory helper extraction for modular, readable code.
 - **Safe API Layer:** Automated request cancellation using `AbortController` hidden behind clean composables.
 - **Granular Routing:** Decoupled navigation logic using per-route guards and externalized middleware patterns.
 - **BEM Styling:** Mandatory Block-Element-Modifier methodology using local CSS files and Tailwind `@apply`.
@@ -20,8 +22,10 @@ The intelligence of this repository lies in the `/.ai/skills/` directory. Each f
 ### 🏗️ Structure & Patterns
 - **[Project Setup & Editor](.ai/skills/vue-project-setup.md)**: Mandatory dependencies and VS Code alignment.
 - **[Architectural Roles](.ai/skills/vue-architecture-roles.md)**: Defines the Layouts vs. Pages vs. Components hierarchy.
+- **[Atomic Design](.ai/skills/vue-atomic-design.md)**: Component decomposition into Atoms, Molecules, and Organisms with mandatory extraction rules.
 - **[Component Standard](.ai/skills/vue-component-standard.md)**: Enforces the 4-file directory structure (`index.vue`, `types.ts`, `styles.css`, `index.spec.ts`).
 - **[Coding Standards](.ai/skills/vue-coding-standards.md)**: Strict `<script setup>` organization and SOLID principles.
+- **[Granular Code](.ai/skills/vue-granular-code.md)**: Function size limits (~20 lines), early returns, helper extraction, and composable granularity.
 - **[Routing Standards](.ai/skills/vue-routing.md)**: Granular per-route guards and rule of separation for views.
 - **[Communication Logic](.ai/skills/vue-communication-logic.md)**: Guidelines for Props/Emits and parent-child interaction.
 
@@ -61,8 +65,9 @@ npm install -D tailwindcss @tailwindcss/vite vitest @vue/test-utils playwright e
 ## 🛠️ How to use with AI
 When working with an AI Agent in this repository:
 1. Ensure the Agent reads `/.ai/AGENTS.md` first.
-2. The Agent will automatically scan and apply the rules in `/.ai/skills/`.
-3. Experience "Vibe Coding with Responsibility": high-speed development with zero architectural technical debt.
+2. The Agent uses the **Skill Index** in `AGENTS.md` to route directly to the relevant skill without scanning all files.
+3. Each skill includes **YAML frontmatter** (`description`, `applies_to`) for fast metadata-based discovery.
+4. Experience "Vibe Coding with Responsibility": high-speed development with zero architectural technical debt.
 
 ---
 > [!TIP]

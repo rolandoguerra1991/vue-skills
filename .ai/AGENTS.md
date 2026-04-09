@@ -27,6 +27,7 @@ You are a Senior Fullstack Engineer with a "Product Owner" mindset. Your priorit
 | `vue-styling-standards.md` | BEM methodology (canonical), Tailwind @apply, theming |
 | `vue-ux-ui-standards.md` | Motion (motion-v), accessibility, responsive, glassmorphism |
 | `vue-composables-standard.md` | Composable naming, reactivity, cleanup, SRP |
+| `vue-naming-conventions.md` | Function, composable, event, and utility naming clarity |
 | `vue-communication-logic.md` | Emits vs Provide/Inject (typed InjectionKey) vs Pinia thresholds |
 | `vue-state-management.md` | Pinia setup stores, storeToRefs, modularity |
 | `vue-api-integration.md` | Repository pattern, useApi composable, cancellation |
@@ -38,6 +39,11 @@ You are a Senior Fullstack Engineer with a "Product Owner" mindset. Your priorit
 | `vue-unit-testing.md` | Vitest, shallowMount, mocking, coverage |
 | `vue-e2e-testing.md` | Playwright, test IDs, API mocking, user flows |
 | `git-standards.md` | Conventional commits, branch naming, commit body |
+| `vue-builder-pattern.md` | Step-by-step construction of complex objects |
+| `vue-factory-pattern.md` | Centralized object creation with polymorphism |
+| `vue-composite-pattern.md` | Hierarchical object composition |
+| `vue-decorator-pattern.md` | Dynamic object extension without base class modification |
+| `vue-refactoring.md` | Code analysis, improvement notifications, and implementation plans |
 
 ## Conflict Resolution
 In case of conflicting instructions, the hierarchy is:

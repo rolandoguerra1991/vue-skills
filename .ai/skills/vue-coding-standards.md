@@ -29,4 +29,4 @@ Maintain this strict order:
 - Boolean: Use prefixes like `is`, `has`, `can` (e.g., `isLoading`).
 - Events: Use `handle` prefix for functions (e.g., `handleUpdate`).
 - **CSS Classes:** Strictly follow the BEM methodology defined in [vue-styling-standards.md](./vue-styling-standards.md).
-
+

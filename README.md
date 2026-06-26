@@ -4,7 +4,7 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 
 ## 🚀 Key Features
 
-- **Automated AI Context:** Orchestrated via `.ai/AGENTS.md` with a **Skill Index** to guide AI agents through project-specific rules.
+- **Automated AI Context:** Orchestrated via `AGENTS.md` with a **Skill Index** to guide AI agents through project-specific rules.
 - **Enterprise Architecture:** Strict separation between Layouts (structure), Views (orchestration), and Components (presentation).
 - **Atomic Design:** Mandatory component decomposition into Atoms, Molecules, and Organisms for maximum reusability.
 - **Granular Code:** Function size limits, early returns, and mandatory helper extraction for modular, readable code.
@@ -17,40 +17,40 @@ This repository establishes a high-performance, strictly typed, and scalable arc
 
 ## 📁 System Architecture (AI Skills)
 
-The intelligence of this repository lies in the `/.ai/skills/` directory. Each file defines a non-negotiable standard for the AI:
+The intelligence of this repository lies in the `/.agents/skills/` directory. Each skill is now organized as its own folder containing a `SKILL.md` file, which is the format expected by agent-based tooling.
 
 ### 🏗️ Structure & Patterns
-- **[Project Setup & Editor](.ai/skills/vue-project-setup.md)**: Mandatory dependencies and VS Code alignment.
-- **[Architectural Roles](.ai/skills/vue-architecture-roles.md)**: Defines the Layouts vs. Pages vs. Components hierarchy.
-- **[Atomic Design](.ai/skills/vue-atomic-design.md)**: Component decomposition into Atoms, Molecules, and Organisms with mandatory extraction rules.
-- **[Component Standard](.ai/skills/vue-component-standard.md)**: Enforces the 4-file directory structure (`index.vue`, `types.ts`, `styles.css`, `index.spec.ts`).
-- **[Coding Standards](.ai/skills/vue-coding-standards.md)**: Strict `<script setup>` organization and SOLID principles.
-- **[Constants & Messages](.ai/skills/vue-constants-standard.md)**: Centralization of strings, magic values, and UI text for better maintainability.
-- **[Granular Code](.ai/skills/vue-granular-code.md)**: Function size limits (~20 lines), early returns, helper extraction, and composable granularity.
-- **[Routing Standards](.ai/skills/vue-routing.md)**: Granular per-route guards and rule of separation for views.
-- **[Communication Logic](.ai/skills/vue-communication-logic.md)**: Guidelines for Props/Emits and parent-child interaction.
+- **[Project Setup & Editor](.agents/skills/vue-project-setup/SKILL.md)**: Mandatory dependencies and VS Code alignment.
+- **[Architectural Roles](.agents/skills/vue-architecture-roles/SKILL.md)**: Defines the Layouts vs. Pages vs. Components hierarchy.
+- **[Atomic Design](.agents/skills/vue-atomic-design/SKILL.md)**: Component decomposition into Atoms, Molecules, and Organisms with mandatory extraction rules.
+- **[Component Standard](.agents/skills/vue-component-standard/SKILL.md)**: Enforces the 4-file directory structure (`index.vue`, `types.ts`, `styles.css`, `index.spec.ts`).
+- **[Coding Standards](.agents/skills/vue-coding-standards/SKILL.md)**: Strict `<script setup>` organization and SOLID principles.
+- **[Constants & Messages](.agents/skills/vue-constants-standard/SKILL.md)**: Centralization of strings, magic values, and UI text for better maintainability.
+- **[Granular Code](.agents/skills/vue-granular-code/SKILL.md)**: Function size limits (~20 lines), early returns, helper extraction, and composable granularity.
+- **[Routing Standards](.agents/skills/vue-routing/SKILL.md)**: Granular per-route guards and rule of separation for views.
+- **[Communication Logic](.agents/skills/vue-communication-logic/SKILL.md)**: Guidelines for Props/Emits and parent-child interaction.
 
 ### 💡 Logic & State
-- **[State Management](.ai/skills/vue-state-management.md)**: Modern Pinia usage with Setup Stores and inferred reactivity.
-- **[API Integration](.ai/skills/vue-api-integration.md)**: Clean API consumption with automated AbortController handling.
-- **[Error Handling](.ai/skills/vue-error-handling.md)**: Centralized API error handling, toast feedback, and ErrorBoundary component.
-- **[Form Validation](.ai/skills/vue-form-validation.md)**: Schema-first form validation with Zod and reusable composable.
-- **[Composables Standard](.ai/skills/vue-composables-standard.md)**: Guidelines for logic reuse and lifecycle-aware cleanup.
+- **[State Management](.agents/skills/vue-state-management/SKILL.md)**: Modern Pinia usage with Setup Stores and inferred reactivity.
+- **[API Integration](.agents/skills/vue-api-integration/SKILL.md)**: Clean API consumption with automated AbortController handling.
+- **[Error Handling](.agents/skills/vue-error-handling/SKILL.md)**: Centralized API error handling, toast feedback, and ErrorBoundary component.
+- **[Form Validation](.agents/skills/vue-form-validation/SKILL.md)**: Schema-first form validation with Zod and reusable composable.
+- **[Composables Standard](.agents/skills/vue-composables-standard/SKILL.md)**: Guidelines for logic reuse and lifecycle-aware cleanup.
 
 ### 🎨 Styling & Performance
-- [**Styling Standards**](.ai/skills/vue-styling-standards.md): BEM priority and Tailwind CSS encapsulation.
-- [**UX/UI Standards**](.ai/skills/vue-ux-ui-standards.md): Accessibility, visual feedback, and premium animations with Motion.
-- [**Formatting & Indentation**](.ai/skills/vue-formatting-standards.md): Mandatory rules for clean code and clean diffs.
-- [**Performance**](.ai/skills/vue-performance.md): Optimization rules for large datasets and heavy components.
+- [**Styling Standards**](.agents/skills/vue-styling-standards/SKILL.md): BEM priority and Tailwind CSS encapsulation.
+- [**UX/UI Standards**](.agents/skills/vue-ux-ui-standards/SKILL.md): Accessibility, visual feedback, and premium animations with Motion.
+- [**Formatting & Indentation**](.agents/skills/vue-formatting-standards/SKILL.md): Mandatory rules for clean code and clean diffs.
+- [**Performance**](.agents/skills/vue-performance/SKILL.md): Optimization rules for large datasets and heavy components.
 
 ### 🛡️ Quality Assurance
-- **[TypeScript Rules](.ai/skills/vue-typescript-rules.md)**: Externalized interfaces and strict typing.
-- **[Unit Testing](.ai/skills/vue-unit-testing.md)**: 100% coverage requirement using Vitest.
-- **[E2E Testing](.ai/skills/vue-e2e-testing.md)**: User flow validation with Playwright/Cypress via `data-testid`.
+- **[TypeScript Rules](.agents/skills/vue-typescript-rules/SKILL.md)**: Externalized interfaces and strict typing.
+- **[Unit Testing](.agents/skills/vue-unit-testing/SKILL.md)**: 100% coverage requirement using Vitest.
+- **[E2E Testing](.agents/skills/vue-e2e-testing/SKILL.md)**: User flow validation with Playwright/Cypress via `data-testid`.
 
 ### 🔗 Integrations & Workflow
-- **[Supabase Integration](.ai/skills/vue-supabase-integration.md)**: Standards for database, auth, and real-time integration.
-- **[Git Standards](.ai/skills/git-standards.md)**: Conventional commits, branch naming, and commit body standards.
+- **[Supabase Integration](.agents/skills/vue-supabase-integration/SKILL.md)**: Standards for database, auth, and real-time integration.
+- **[Git Standards](.agents/skills/git-standards/SKILL.md)**: Conventional commits, branch naming, and commit body standards.
 
 ---
 
